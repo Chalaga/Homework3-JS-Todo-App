@@ -1,0 +1,141 @@
+:root {
+  --PlusJakartaSans: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--PlusJakartaSans);
+}
+
+h1, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: url(./Assets/Background.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-inline: 24px;
+}
+
+.maincontainer {
+  margin: auto;
+}
+
+.desktopheader {
+  display: none;
+}
+
+.mobileheader {
+  display: flex;
+  margin: auto;
+  padding-top: 70px;
+  margin-bottom: 40px;
+}
+
+.maininput input {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  width: 100%;
+  padding-block: 23px;
+  border-radius: 10px;
+  padding-left: 72px;
+  border: none;
+}
+
+.maininput {
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+
+}
+
+.maininputimgcontainer {
+  position: absolute;
+  left: 50px;
+  top: 18px;
+}
+
+.MobileSearch {
+  display: flex;
+  position: absolute;
+  right: 43px;
+  top: 18px;
+}
+
+.listcontainer {
+  display: flex;
+  border: 1px solid #e3e4f1;
+  border-radius: 10px;
+  padding-block: 20px;
+  background-color: white;
+  margin-inline: 24px;
+  justify-content: space-between;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.listImgAndValueContainer {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+/* .list1 {
+  margin-top: 24px;
+} */
+
+.listcontainer h1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #494C6B;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  border: 1px solid #e3e4f1;
+  border-radius: 10px;
+  padding-block: 20px;
+  background-color: white;
+  margin-inline: 24px;
+}
+
+footer h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #9495a5;
+}
+
+.allactiveandcompleted {
+  display: flex;
+  color: #9495a5;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  gap: 19px;
+}
+
+.Itemcount {
+  display: none;
+}
+
+.completedtasks {
+  display: none;
+}
+
+.all {
+  color: #3a7cfd;
+}

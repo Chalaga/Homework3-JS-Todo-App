@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO APP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./Media.css" />
+    <script defer src="./App.js"></script>
+  </head>
+  <body>
+    <div class="maincontainer">
+      <img class="mobileheader" src="./Assets/Mobileheader.svg" />
+      <img class="desktopheader" src="./Assets/DesktopHeader.svg" />
+      <div class="container maininput">
+        <input type="text" id="todoInput" placeholder="Create a new todo…" />
+        <div class="maininputimgcontainer">
+          <img class="maininputimg" src="./Assets/Check.svg">
+        </div>
+        <div class="MobileSearch">
+          <img width="24px" height="24px" src="./Assets/Add_icon.svg">
+        </div>
+      </div>
+      <footer>
+        <h3 class="Itemcount">5 items left</h3>
+        <div class="allactiveandcompleted">
+          <h3 class="all">All</h3>
+          <h3>Active</h3>
+          <h3>Completed</h3>
+        </div>
+        <h3 class="completedtasks">Clear Completed</h3>
+      </footer>
+    </div>
+  </body>
+</html>
+
+

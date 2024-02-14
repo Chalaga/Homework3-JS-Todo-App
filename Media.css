@@ -1,0 +1,41 @@
+@media (min-width: 540px) {
+  .container {
+    width: 540px;
+    margin: auto;
+  }
+
+  .maininput {
+    margin-bottom: 24px;
+  }
+
+  .MobileSearch {
+    display: none;
+  }
+
+  footer {
+    width: 493px;
+    margin: auto;
+  }
+  .Itemcount {
+    display: flex;
+  }
+  .completedtasks {
+    display: flex;
+  }
+
+  .listcontainer {
+    width: 493px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .MobileSearch {
+    display: none;
+  }
+}
